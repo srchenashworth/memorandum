@@ -1,5 +1,8 @@
 # memorandum
-using Django ,navigate to virtual environment(learning_log is a file in documents that have ve installed):
-  1. cd documents/learning_log/
-  2. $ source ll_env/bin/activate
-(ll_env)learnig_log$
+#using Django ,Start a project(VE already installed):
+ 1.$ cd documents
+ 2.$ source ll_env/bin/activate  #Activating the VE
+ 3.(ll_env)..$ django-admin.py startproject meal_planner .# start a project
+ 4.(ll_env)..$ python manage.py migrate     #create a database
+ 5.(ll_env)..$ python manage.py runserver   #runserver on browser
+"http://127.0.0.1:8000/"
